@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  text-align: center;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  background: #373a40;
+  transition: all 0.2s ease-in;
+}
+
+.button:hover {
+  color: #373a40;
+  background: #ffd43b;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  color: white;
+  cursor: not-allowed;
+}
